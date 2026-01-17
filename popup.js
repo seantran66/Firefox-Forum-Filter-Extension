@@ -1,0 +1,19 @@
+const toggle = document.getElementById("toggle");
+const openOptionsButton = document.getElementById("openOptions");
+
+// Initialize toggle state
+browser.storage.local.get("enabled").then(({ enabled }) => {
+  toggle.checked = enabled;
+});
+
+// Handle enable / disable toggle
+toggle.addEventListener("change", () => {
+  browser.storage.local.set({ enabled: toggle.checked }).then(() => {
+    browser.runtime.sendMessage({ type: "TOGGLE_ENABLED" });
+  });
+});
+
+// Open options page
+openOptionsButton.addEventListener("click", () => {
+  browser.runtime.openOptionsPage();
+});

@@ -1,0 +1,6 @@
+html, body, button, input, select, textarea, label {
+  font-family: system-ui, -apple-system,
+               "Segoe UI Variable", "Segoe UI",
+               Roboto, Ubuntu, Cantarell,
+               sans-serif;
+}

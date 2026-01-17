@@ -1,0 +1,3 @@
+This extension does not collect, store, or transmit any personal data.
+All settings are stored locally in the user's browser using Firefox's
+built-in storage APIs. No data is sent to external servers.

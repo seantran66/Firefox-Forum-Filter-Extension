@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ON3 Forum Filter Settings</title>
+
+  <!-- Add this line -->
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <h2>Forum Filter Settings</h2>
+
+  <label>
+    Reaction Threshold:
+    <input type="number" id="threshold" min="0">
+  </label>
+
+  <br><br>
+
+  <label>
+    Whitelisted Usernames (one per line):
+    <br>
+    <textarea id="whitelist" rows="8" cols="30"></textarea>
+  </label>
+
+  <br><br>
+
+  <button id="save">Save</button>
+
+  <script src="options.js"></script>
+</body>
+</html>
