@@ -13,7 +13,7 @@
       "id": "on3-forum-filter@seantran",
       "strict_min_version": "140.0",
       "data_collection_permissions": {
-        "required": [],
+        "required": ["none"],
         "user_data": [],
         "web_activity": []
       }
@@ -42,6 +42,7 @@
     "96": "icons/icon-96.png"
   }
 }
+
 
 
 
