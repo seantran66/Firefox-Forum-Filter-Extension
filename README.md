@@ -1,6 +1,6 @@
 # Firefox-Forum-Filter-Extension
 
-This extension was inspired by a similar extension on Google Chrome. I had been using that extension, paired with an ad blocker, to improve my forum experience. When Google Chrome removed ad blockers about a year ago, I decide to make the switch to Firefox. \
+This extension was inspired by a similar extension on Google Chrome. I had been using that extension, paired with an ad blocker, to improve my On3 forum experience. When Google Chrome removed ad blockers about a year ago, I decided to make the switch to Firefox. \
 \
 However, there wasn't an extension out there that fit what I was looking for. Some had features that could highlight/dim posts, but all I wanted was an extension that would hide posts that are below a specified reactions threshold and aren't posted by whitelisted users. I eventually made my way back to Chrome, deciding I would just put up with the ads, as the extension on Chrome was vital to by forums experience.\
 \
