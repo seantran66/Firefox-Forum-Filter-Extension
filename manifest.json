@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "ON3 Forum Post Filter",
+  "name": "On3 Forum Filter for Firefox",
   "version": "1.0",
-  "description": "Hides ON3 forum posts below a reaction threshold unless posted by specified users.",
+  "description": "Hides On3 forum posts below a reaction threshold unless posted by specified users.",
   "permissions": [
     "storage",
     "activeTab"
@@ -30,3 +30,4 @@
     "128": "icons/icon-128.png"
   }
 }
+
