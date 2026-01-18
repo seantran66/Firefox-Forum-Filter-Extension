@@ -1,5 +1,6 @@
 const toggle = document.getElementById("toggle");
 const openOptionsButton = document.getElementById("openOptions");
+const openAboutButton = document.getElementById("openAbout");
 
 // Initialize toggle state
 browser.storage.local.get("enabled").then(({ enabled }) => {
@@ -17,3 +18,11 @@ toggle.addEventListener("change", () => {
 openOptionsButton.addEventListener("click", () => {
   browser.runtime.openOptionsPage();
 });
+
+// Open about page ONLY on click
+openAboutButton.addEventListener("click", () => {
+  browser.tabs.create({
+    url: browser.runtime.getURL("about.html")
+  });
+});
+
