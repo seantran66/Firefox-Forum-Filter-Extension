@@ -7,6 +7,18 @@
     "storage",
     "activeTab"
   ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "on3-forum-filter@seantran",
+      "strict_min_version": "109.0",
+      "data_collection_permissions": {
+        "user_data": [],
+        "web_activity": []
+      }
+    }
+  },
+  
   "background": {
     "scripts": ["background.js"]
   },
@@ -30,4 +42,5 @@
     "128": "icons/icon-128.png"
   }
 }
+
 
