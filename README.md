@@ -1,4 +1,4 @@
-# Firefox-Forum-Filter-Extension
+# Backstory
 
 This extension was inspired by a similar extension on Google Chrome. I had been using that extension, paired with an ad blocker, to improve my On3 forum experience. When Google Chrome removed ad blockers about a year ago, I decided to make the switch to Firefox. \
 \
