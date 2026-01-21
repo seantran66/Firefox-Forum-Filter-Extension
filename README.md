@@ -8,4 +8,4 @@ After a year of dealing with ads bogging down my computer, I finally decided to 
 \
 As such, I've decided to make the repository public, given it contains very little that couldn't be easily achieved by utilizing generative AI. Anyone who would like to improve upon this extension by using this repository as a foundation is welcome to do so.\
 \
-Created 1/17/2026. Development started offline on 1/15/2026.
+Completed on 1/17/2026. Development started offline on 1/15/2026.
